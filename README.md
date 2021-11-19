@@ -223,7 +223,7 @@
 <a href="https://www.buymeacoffee.com/hackThacker0" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/arial-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 50px !important;"></a>
 ----------------------------------------------
 
-[![PayPalMe](https://www.paypal.com/donate?hosted_button_id=GVZ23CFW2ET2G)]()
+https://www.paypal.com/donate?hosted_button_id=GVZ23CFW2ET2G
 
 #### Don't Forgot to share with Your Friends 
 ### The new Update get will soon stay updated
