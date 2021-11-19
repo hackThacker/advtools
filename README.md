@@ -221,12 +221,9 @@
 ꧁𓊈𒆜🅲🆁🅴🅰🆃🅴🅳 🅱🆈 🅽🅴🅴🆁🅰🅹𒆜𓊉꧂
 
 <a href="https://www.buymeacoffee.com/hackThacker0" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/arial-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 50px !important;"></a>
-[![PayPalMe](<form action="https://www.paypal.com/donate" method="post" target="_top">
-<input type="hidden" name="hosted_button_id" value="GVZ23CFW2ET2G" />
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-<img alt="" border="0" src="https://www.paypal.com/en_NP/i/scr/pixel.gif" width="1" height="1" />
-</form>
-)]()
+----------------------------------------------
+
+[![PayPalMe](https://www.paypal.com/donate?hosted_button_id=GVZ23CFW2ET2G)]()
 
 #### Don't Forgot to share with Your Friends 
 ### The new Update get will soon stay updated
