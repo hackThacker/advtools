@@ -199,15 +199,15 @@
 
 #### This Tool Must Run As ROOT !!!
 
-    git clone https://github.com/hackThacker/Hackingtools.git
+    git clone https://github.com/hackThacker/advtools.git
     
-    chmod -R 755 hackingtool  
+    chmod -R 755 advtools
     
-    cd hackingtool
+    cd advtools
     
     sudo pip3 install -r requirement.txt
     
-    bash install.sh
+     sudo bash install.sh
     
     sudo hackingtool
 
