@@ -39,8 +39,8 @@ logo = """\033[33m
                                     \033[34m[✔]  https://github.com/hackThacker/advtools.git [✔]
                                     \033[34m[✔]            Version 1.1.1              [✔]
                                     \033[91m[X] Please Don't Use For illegal Activity  [X]
-                                    \033[91m[X] This is for Education-purpose [X]   
-                                    \033[97m """
+                                    \033[91m[X] This is for Education-purpose [X]                                     
+  \033[97m"""                                  
 all_tools = [
     AnonSurfTools(),
     InformationGatheringTools(),
