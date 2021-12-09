@@ -69,7 +69,7 @@ class AllTools(HackingToolsCollection):
     TOOLS = all_tools
 
     def show_info(self):
-        print(logo + '\033[m \033[97m')  
+        print(logo + '\033[0m \033[97m')  
 
 
 if __name__ == "__main__":
