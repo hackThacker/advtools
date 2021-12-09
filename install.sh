@@ -25,7 +25,7 @@ echo "  ███    ███     ███    ███ ███    ███
 echo "  ███    █▀      ███    █▀  ████████▀    ███   ▀█▀ █▀    ▀█   █▀    ████████▀          ▄████▀    ▀██████▀   ▀██████▀  █████▄▄██ ";
 echo "                                         ▀                                                                            ▀         ";                         
 
-echo -e "${BLUE}                                    https://github.com/Z4nzu/hackingtool ${NC}"
+echo -e "${BLUE}                                   https://github.com/hackThacker/Hackingtools  ${NC}"
 
 echo -e "${RED}                                   [!] This Tool Must Run As ROOT [!]${NC}"
 echo ""
@@ -33,7 +33,7 @@ echo -e ${CYAN}              "Select Best Option : "
 echo ""
 echo -e "${WHITE}              [1] Kali Linux / Parrot-Os "
 echo -e "${WHITE}              [0] Exit "
-echo -n -e "Z4nzu >> "
+echo -n -e "hackThacker >> "
 read choice
 INSTALL_DIR="/usr/share/doc/hackingtool"
 BIN_DIR="/usr/bin/"
