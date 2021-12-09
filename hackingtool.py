@@ -36,8 +36,8 @@ logo = """\033[33m
   ███    ███     ███    ███ ███    ███   ███ ▀███▄ ███  ███   ███   ███    ███          ███     ███    ███ ███    ███ ███▌    ▄ 
   ███    █▀      ███    █▀  ████████▀    ███   ▀█▀ █▀    ▀█   █▀    ████████▀          ▄████▀    ▀██████▀   ▀██████▀  █████▄▄██ 
                                          ▀                                                                            ▀                             
-                                    \033[34m[✔]   https://github.com/hackThacker/Hackingtools.git [✔]
-                                    \033[34m[✔]            Version 1.1.0               [✔]
+                                    \033[34m[✔]  https://github.com/hackThacker/advtools.git [✔]
+                                    \033[34m[✔]            Version 1.1.1              [✔]
                                     \033[91m[X] Please Don't Use For illegal Activity  [X]
 \033[97m """
 
