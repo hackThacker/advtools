@@ -225,6 +225,19 @@
 
 https://www.paypal.com/donate?hosted_button_id=GVZ23CFW2ET2G
 
+<script>
+function fbShare(siteUrl, picture, title, caption, descr, winWidth,  winHeight) {
+
+
+    var winTop = (screen.height / 2) - (winHeight / 2);
+    var winLeft = (screen.width / 2) - (winWidth / 2);
+
+    window.open('http://www.facebook.com/sharer.php?s=100&u=' + siteUrl + '&picture=' + picture + '&title=' + title + '&caption=' + caption , '&description=' + descr, 'top=' + winTop + ',left=' + winLeft + ',toolbar=0,status=0,width=' + winWidth + ',height=' + winHeight);
+}
+</script>
+<a href="javascript:fbShare('https://yoursite/', 'https://image.jpg', 'title', 'site name', 'short description', 520, 350)" class="facebook-share">Share</a>
+
+
 #### Don't Forgot to share with Your Friends 
 ### The new Update get will soon stay updated
 #### Thank you..!!
