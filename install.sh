@@ -76,6 +76,7 @@ if [ $choice == 1 ]; then
 		sudo apt-get install boxes
 		sudo pip3 install flask
 		sudo pip3 install requests
+		export PATH=$PATH:~/.local/bin
 	else 
 		echo -e $RED "Please Check Your Internet Connection ..!!"
 	fi
