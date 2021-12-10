@@ -196,8 +196,6 @@
 ![](https://github.com/hackThacker/advtools/blob/main/images/image1.png)
 
 
-## Installation For Linux <img src="https://konpa.github.io/devicon/devicon.git/icons/linux/linux-original.svg" alt="linux" width="25" height="25"/></p><p align="center">
-
 #### This Tool Must Run As ROOT !!!
 
     git clone https://github.com/hackThacker/advtools.git
