@@ -1,6 +1,3 @@
-
-
-
 # coding=utf-8
 import os
 
@@ -12,7 +9,7 @@ class Android_tools(HackingTool):
     DESCRIPTION = "Mobile Verification Toolkit (MVT) is a collection of utilities to simplify and automate the process." \
                   "  of gathering forensic traces helpful to identify a potential compromise of Android and iOS devices."
    INSTALL_COMMANDS = [
-        "adb",
+        "sudo adb",
         "export PATH=$PATH:~/.local/bin",
         "sudo git clone https://github.com/mvt-project/mvt",
         "cd mvt"
