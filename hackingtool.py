@@ -25,7 +25,7 @@ from tools.webattack import WebAttackTools
 from tools.wireless_attack_tools import WirelessAttackTools
 from tools.wordlist_generator import WordlistGeneratorTools
 from tools.xss_attack import XSSAttackTools
-from tools.bughunter import bughunterlogo
+from tools.bughunter import bughunter
 
 logo = """\033[33m
    ▄█    █▄       ▄████████  ▄████████    ▄█   ▄█▄  ▄█  ███▄▄▄▄      ▄██████▄           ███      ▄██████▄   ▄██████▄   ▄█       
@@ -44,6 +44,7 @@ logo = """\033[33m
   \033[97m"""                                  
 all_tools = [
     AnonSurfTools(),
+    bugbounter(),
     InformationGatheringTools(),
     WordlistGeneratorTools(),
     WirelessAttackTools(),
