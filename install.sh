@@ -31,7 +31,7 @@ echo "                      ██║  ██║██████╔╝ ╚█�
 echo "                      ╚═╝  ╚═╝╚═════╝   ╚═══╝     ╚═╝    ╚═════╝  ╚═════╝ ╚══════╝╚══════╝";
 
 
-echo -e "${BLUE}                                   https://github.com/hackThacker/Hackingtools  ${NC}"
+echo -e "${BLUE}                                    https://github.com/hackThacker/advtools.git ${NC}"
 
 echo -e "${RED}                                   [!] This Tool Must Run As ROOT [!]${NC}"
 echo ""
