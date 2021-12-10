@@ -48,6 +48,8 @@
 ### Anonymously Hiding Tools
 - [Anonmously Surf](https://github.com/Und3rf10w/kali-anonsurf)
 - [Multitor](https://github.com/trimstray/multitor)
+### Bugbounty Tools
+- [Bugbounty Tools](https://github.com/thehackingsage/bughunter)
 ### Information gathering tools
 - [Network Map (nmap)](https://github.com/nmap/nmap)
 - [Dracnmap](https://github.com/Screetsec/Dracnmap)
