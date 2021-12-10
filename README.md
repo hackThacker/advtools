@@ -3,6 +3,7 @@
 ꧁༒☬𝓬𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝔂 𝓝𝓮𝓮𝓻𝓪𝓳☬༒꧂
 ## Update Available V1.1.1 🚀 
 - [x] Added New Tools 
+    - [x] Bugbounty tools 
     - [x] Reverse Engineering
     - [x] RAT Tools
     - [x] Web Crawling 
