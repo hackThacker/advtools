@@ -226,8 +226,6 @@
 https://www.paypal.com/donate?hosted_button_id=GVZ23CFW2ET2G
 
 #### Don't Forgot to share with Your Friends 
-     ####--------------------------------------------------------
-<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=61b33007b2171a001261228c&product=inline-share-buttons" async="async"></script>
-
+--------------------------------------------------
 ### The new Update get will soon stay updated
 #### Thank you..!!
