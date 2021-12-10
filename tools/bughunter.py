@@ -1,7 +1,7 @@
 class bughunter(HackingTool):
     TITLE = "bughunter"
-    DESCRIPTION = "It automatically overwrites the RAM when\n" \
-                  "the system is shutting down and also change Ip."
+    DESCRIPTION = "A bug bounty program is a deal offered by many websites, organizations and software developers by which individuals" \
+                  " can receive recognition and compensation for reporting bugs, especially those pertaining to security exploits and vulnerabilities."
     INSTALL_COMMANDS = [
         "sudo git clone https://github.com/thehackingsage/bughunter.git",
         "cd bughunter && chmod +x bughunter.py && sudo cp bughunter.py /usr/bin/bughunter"
