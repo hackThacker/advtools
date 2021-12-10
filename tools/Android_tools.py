@@ -11,11 +11,13 @@ class Android_tools(HackingTool):
     TITLE = "Android_tools"
     DESCRIPTION = "Mobile Verification Toolkit (MVT) is a collection of utilities to simplify and automate the process." \
                   "  of gathering forensic traces helpful to identify a potential compromise of Android and iOS devices."
-    INSTALL_COMMANDS = [
+   INSTALL_COMMANDS = [
+        "adb",
+        "export PATH=$PATH:~/.local/bin",
         "sudo git clone https://github.com/mvt-project/mvt",
-        "cd mvt && pip3 install"
-    ]
-    RUN_COMMANDS = ["sudo Androidtools start"]
+        "cd mvt"
+        ]
+    RUN_COMMANDS = ["sudo Android_tools start"]
     PROJECT_URL = "sudo git clone https://github.com/mvt-project/mvt"
 
     def __init__(self):
