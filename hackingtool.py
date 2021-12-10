@@ -6,7 +6,7 @@ import webbrowser
 from platform import system
 from time import sleep
 
-from tools.core import HackingToolsCollection
+from core import HackingToolsCollection
 from tools.anonsurf import AnonSurfTools
 from tools.ddos import DDOSTools
 from tools.exploit_frameworks import ExploitFrameworkTools
