@@ -39,7 +39,7 @@ echo -e ${CYAN}              "Select Best Option : "
 echo ""
 echo -e "${WHITE}              [1] Kali Linux / Parrot-Os "
 echo -e "${WHITE}              [0] Exit "
-echo -n -e "hackThacker >> "
+echo -n -e "𝓱𝓪𝓬𝓴𝓣𝓱𝓪𝓬𝓴𝓮𝓻 >> "
 read choice
 INSTALL_DIR="/usr/share/doc/hackingtool"
 BIN_DIR="/usr/bin/"
