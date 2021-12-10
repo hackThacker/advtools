@@ -44,7 +44,7 @@ logo = """\033[33m
   \033[97m"""                                  
 all_tools = [
     AnonSurfTools(),
-    bugbounter(),
+    bughunter(),
     InformationGatheringTools(),
     WordlistGeneratorTools(),
     WirelessAttackTools(),
