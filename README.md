@@ -7,8 +7,8 @@
     - [x] Bugbounty tools 
      - [x] Reverse Engineering
       - [x] RAT Tools
-       - [x] Web Crawling 
-        - [x] Payload Injector
+        - [x] Web Crawling 
+         - [x] Payload Injector
 - [x] Multitor Tools update
 - [X] Added Tool in wifijamming
 - [X] Added Tool in steganography
