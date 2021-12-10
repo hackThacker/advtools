@@ -2,12 +2,13 @@
 
 ꧁༒☬𝓬𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝔂 𝓝𝓮𝓮𝓻𝓪𝓳☬༒꧂
 ## Update Available V1.1.1 🚀 
-- [x] Added New Tools 
+ - [x] Added New Tools 
+   - [x] Android Tools
     - [x] Bugbounty tools 
-    - [x] Reverse Engineering
-    - [x] RAT Tools
-    - [x] Web Crawling 
-    - [x] Payload Injector
+     - [x] Reverse Engineering
+      - [x] RAT Tools
+       - [x] Web Crawling 
+        - [x] Payload Injector
 - [x] Multitor Tools update
 - [X] Added Tool in wifijamming
 - [X] Added Tool in steganography
