@@ -14,3 +14,11 @@ class bughunter(HackingTool):
 
     def stop(self):
         os.system("sudo bughunter stop")
+        
+class bughunter(HackingToolsCollection):
+    TITLE = "Bugbounty Tools"
+    DESCRIPTION = ""
+    TOOLS = [
+        bughunter(),
+        
+    ]
