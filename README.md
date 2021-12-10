@@ -228,17 +228,6 @@ https://www.paypal.com/donate?hosted_button_id=GVZ23CFW2ET2G
 #### Don't Forgot to share with Your Friends 
      ####--------------------------------------------------------
 
-<b>Share This:</b>
-<a target="_blank" href="http://www.facebook.com/sharer.php?u=<?php the_permalink();?>&t=<?php the_title(); ?>"> <img src="http://i.minus.com/i1UqMXjOhoUzH.jpg" alt="Facebook" width="64" height="64"></a> | 
-<a href="http://twitter.com/share?text=<?php echo urlencode(the_title()); ?>&url=<?php echo urlencode(the_permalink()); ?>&via=shemul49rmc&related=<?php echo urlencode("shemul49rmc:Support me"); ?>" title="Share on Twitter" rel="nofollow" target="_blank"><img src="http://i.minus.com/ibmtAwKz1BAcLO.png" alt="Twitter" width="64" height="64"></a> | 
-<a href="https://plus.google.com/share?url=<?php the_permalink(); ?>" onclick="window.open('https://plus.google.com/share?url=<?php the_permalink(); ?>','gplusshare','width=600,height=400,left='+(screen.availWidth/2-225)+',top='+(screen.availHeight/2-150)+'');return false;"><img src="http://i.minus.com/izAImJGqELkX1.png" alt="Google Plus" width="64" height="64"></a> | 
-<div>
-<a href="http://www.reddit.com/submit?url=<?php the_permalink(); ?>&amp;title=<?php the_title(); ?>" title="Reddit" rel="nofollow" target="_blank">Reddit</a> | 
-<a href="http://www.stumbleupon.com/submit?url=<?php the_permalink(); ?>&amp;title=<?php the_title(); ?>" title="Stumble it" rel="nofollow" target="_blank">Stumble it</a> | 
-<a href="http://digg.com/submit?url=<?php the_permalink(); ?>&amp;title=<?php the_title(); ?>" title="Digg this!" rel="nofollow" target="_blank">Digg this!</a> | 
-<a href="http://www.linkedin.com/shareArticle?mini=true&amp;title=<?php the_title(); ?>&amp;url=<?php the_permalink(); ?>" title="Share on LinkedIn" rel="external nofollow" rel="nofollow" target="_blank">Share on LinkedIn</a> | 
-<a href="http://pinterest.com/pin/create/button/?url=<?php the_permalink(); ?>&media=<?php $url = wp_get_attachment_url( get_post_thumbnail_id($post->ID) ); echo $url; ?>" title="Pinterest" rel="nofollow" target="_blank">Pinterest</a> | 
-<a href="http://del.icio.us/post?url=<?php the_permalink(); ?>&amp;title=<?php the_title(); ?>" title="Bookmark on del.icio.us" rel="nofollow" target="_blank">Del.icio.us</a>
-</div>
+
 ### The new Update get will soon stay updated
 #### Thank you..!!
