@@ -14,14 +14,14 @@ class Androidtools(HackingTool):
         "sudo git clone https://github.com/mvt-project/mvt",
         " adb && cd mvt "      
     ]
-    RUN_COMMANDS = ["sudo Android_tools start"]
+    RUN_COMMANDS = ["sudo Androidtools start"]
     PROJECT_URL = "sudo git clone https://github.com/mvt-project/mvt"
 
     def __init__(self):
         super(Androidtools, self).__init__([('Stop', self.stop)])
 
     def stop(self):
-        os.system("sudo Android_tools stop")
+        os.system("sudo Androidtools stop")
         
 class Androidtools(HackingToolsCollection):
     TITLE = "Android Tools"
