@@ -26,7 +26,7 @@ from tools.wireless_attack_tools import WirelessAttackTools
 from tools.wordlist_generator import WordlistGeneratorTools
 from tools.xss_attack import XSSAttackTools
 from tools.bughunter import bughunter
-from tools.Android_tools import Android_tools
+from tools.Androidtools import Androidtools
 
 logo = """\033[33m
    ▄█    █▄       ▄████████  ▄████████    ▄█   ▄█▄  ▄█  ███▄▄▄▄      ▄██████▄           ███      ▄██████▄   ▄██████▄   ▄█       
@@ -61,7 +61,7 @@ all_tools = [
     RemoteAdministrationTools(),
     XSSAttackTools(),
     SteganographyTools(),
-    Android_tools(),
+    Androidtools(),
     OtherTools(),
     ToolManager()
 ]
