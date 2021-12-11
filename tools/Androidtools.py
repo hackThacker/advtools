@@ -19,7 +19,7 @@ class Androidtools(HackingTool):
                    "sudo mvt-android && mvt-ios",
         "sudo adb start-services",
         "sudo mvt-android check-adb",
-        "sudo cd/home/Desktop  && mkdir mvtapps",
+        "sudo cd/home/kali/Desktop  && mkdir mvtapps",
         "sudo mvt-android download-apks -o mvtapps -A"
                    
                    ]
