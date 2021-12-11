@@ -14,7 +14,7 @@ class Androidtools(HackingTool):
         "sudo git clone https://github.com/mvt-project/mvt",
         " adb && cd mvt "      
     ]
-    RUN_COMMANDS = ["pip3 install mvt"]
+    RUN_COMMANDS = ["pip3 install"]
     PROJECT_URL = "sudo git clone https://github.com/mvt-project/mvt"
 
     def __init__(self):
