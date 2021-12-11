@@ -10,11 +10,11 @@ class Androidtools(HackingTool):
                   "  of gathering forensic traces helpful to identify a potential compromise of Android and iOS devices."
     INSTALL_COMMANDS = [
 
-        "export PATH=$PATH:~/.local/bin",
-        "sudo git clone https://github.com/mvt-project/mvt",
-        " adb && cd mvt "      
+        "sudo adb -y",
+        "sudo pip -y",
+        "export PATH=$PATH:~/.local/bin "      
     ]
-    RUN_COMMANDS = ["pip3 install"]
+    RUN_COMMANDS = ["pip install mvt"]
     PROJECT_URL = "sudo git clone https://github.com/mvt-project/mvt"
 
     def __init__(self):
