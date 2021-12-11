@@ -10,8 +10,8 @@ class Androidtools(HackingTool):
                   "  of gathering forensic traces helpful to identify a potential compromise of Android and iOS devices."
     INSTALL_COMMANDS = [
 
-        "sudo adb -y",
-        "sudo pip -y",
+        "sudo adb ",
+        "sudo pip ",
         "export PATH=$PATH:~/.local/bin "      
     ]
     RUN_COMMANDS = ["pip install mvt"]
