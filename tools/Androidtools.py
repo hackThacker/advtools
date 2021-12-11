@@ -11,18 +11,12 @@ class Androidtools(HackingTool):
     INSTALL_COMMANDS = [
 
         "sudo adb ",
-        "sudo pip ",
-        "export PATH=$PATH:~/.local/bin ",  
-        "
-       
+        "sudo pip " 
     ]
     RUN_COMMANDS = [ 
-        "git clone https://github.com/mvt-project/mvt.git",
-        "cd mvt",
-        "pip3 install ."
-      
-                   
-                   ]
+        "export PATH=$PATH:~/.local/bin ",
+        "pip install mvt"
+      ]
     PROJECT_URL = "sudo git clone https://github.com/mvt-project/mvt"
 
     def __init__(self):
