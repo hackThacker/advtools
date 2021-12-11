@@ -16,7 +16,11 @@ class Androidtools(HackingTool):
         "pip install mvt"
     ]
     RUN_COMMANDS = [
-                   "mvt-android && mvt-ios"
+                   "sudo mvt-android && mvt-ios",
+        "sudo adb start-services",
+        "sudo mvt-android check-adb",
+        "sudo cd/home/Desktop  && mkdir mvtapps",
+        "sudo mvt-android download-apks -o mvtapps -A"
                    
                    ]
     PROJECT_URL = "sudo git clone https://github.com/mvt-project/mvt"
