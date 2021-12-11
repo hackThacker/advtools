@@ -15,10 +15,11 @@ class Androidtools(HackingTool):
         "export PATH=$PATH:~/.local/bin ",  
         "git clone https://github.com/mvt-project/mvt.git",
         "cd mvt",
-        "pip3 install mvt"
+       
     ]
-    RUN_COMMANDS = [
-                   "sudo mvt-android && mvt-ios",
+    RUN_COMMANDS = [ 
+        "pip3 install mvt"
+        "sudo mvt-android && mvt-ios",
         "sudo adb start-services",
         "sudo mvt-android check-adb",
         "sudo cd/home/kali/Desktop  && mkdir mvtapps",
