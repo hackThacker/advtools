@@ -12,7 +12,7 @@ class Androidtools(HackingTool):
 
         "sudo adb ",
         "sudo pip ",
-        " sudo export PATH=$PATH:~/.local/bin "   
+        " sudo export PATH=$PATH:~/.local/bin ",  
         "pip install mvt"
     ]
     RUN_COMMANDS = [
