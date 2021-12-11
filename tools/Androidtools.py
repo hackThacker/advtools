@@ -12,9 +12,9 @@ class Androidtools(HackingTool):
 
         "sudo adb ",
         "sudo pip ",
-        "sudo export PATH=$PATH:~/.local/bin ",  
+        "export PATH=$PATH:~/.local/bin ",  
         "git clone https://github.com/mvt-project/mvt.git",
-        "cd mvt"
+        "cd mvt",
         "pip3 install mvt"
     ]
     RUN_COMMANDS = [
