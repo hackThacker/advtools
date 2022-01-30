@@ -15,7 +15,8 @@
 - [X] Added Tool in steganography
 
     - [X] Upcomming tools update
-         - [] location tracking
+         -  location tracking
+         -  OSINT
        
 
 
