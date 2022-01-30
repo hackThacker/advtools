@@ -15,8 +15,8 @@
 - [X] Added Tool in steganography
 
 - [X] Upcomming tools update
-       - [X] location tracking
-       - 
+  - [X] location tracking
+       
 
 
 # Hackingtool Menu 🧰
