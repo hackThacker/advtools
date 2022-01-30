@@ -14,8 +14,8 @@
 - [X] Added Tool in wifijamming
 - [X] Added Tool in steganography
 
-         - [X] Upcomming tools update
-             - [] location tracking
+    - [X] Upcomming tools update
+         - [] location tracking
        
 
 
