@@ -9,10 +9,14 @@
    - [x] RAT Tools
    - [x] Web Crawling 
    - [x] Payload Injector
+  
 - [x] Multitor Tools update
 - [X] Added Tool in wifijamming
 - [X] Added Tool in steganography
 
+- [X] Upcomming tools update
+       - [X] location tracking
+       - 
 
 
 # Hackingtool Menu 🧰
