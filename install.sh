@@ -41,7 +41,7 @@ echo -e "${WHITE}              [1] Kali Linux / Parrot-Os "
 echo -e "${WHITE}              [0] Exit "
 echo -n -e "${YELLOW} 𝓱𝓪𝓬𝓴𝓣𝓱𝓪𝓬𝓴𝓮𝓻>> "
 read choice
-INSTALL_DIR="/usr/share/doc/hackingtool"
+INSTALL_DIR="/usr/share/doc/advtools"
 BIN_DIR="/usr/bin/"
 if [ $choice == 1 ]; then 
 	echo "[*] Checking Internet Connection .."
