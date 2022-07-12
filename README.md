@@ -2,16 +2,17 @@
 
 ꧁༒☬𝓬𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝔂 𝓝𝓮𝓮𝓻𝓪𝓳☬༒꧂
 ## Update Available V1.1.1 🚀 
+
  - [x] Added New Tools 
-   - [x] Android Tools
+   - [x] Android Tools package
    
   
 - [x] Multitor Tools update
-- [X] Added Tool in wifijamming
-- [X] Added Tool in steganography
-- [X] Added Tool in phishing
+   - [X] Added Tool in wifijamming
+   - [X] Added Tool in steganography
+   - [X] Added Tool in phishing
 
-    - [X] Upcomming tools update
+- [X] Upcomming tools update
          -  location tracking
          -  OSINT
          -  web cam snap
