@@ -32,8 +32,8 @@ class UpdateTool(HackingTool):
                   "cd advtools;"
                   "git clone https://github.com/hackThacker/advtools.git;"
                   "cd hackingtool;"
-                  "sudo chmod +x install.sh;"
-                  "./install.sh")
+                  "sudo chmod -R 775 avtools;"
+                  "sudo bash install.sh")
 
 
 class UninstallTool(HackingTool):
@@ -46,7 +46,7 @@ class UninstallTool(HackingTool):
         ], installable = False, runnable = False)
 
     def uninstall(self):
-        print("hackingtool started to uninstall..\n")
+        print("advtools started to uninstall..\n")
         sleep(1)
         os.system("sudo chmod +x /etc/;"
                   "sudo chmod +x /usr/share/doc;"
@@ -54,7 +54,7 @@ class UninstallTool(HackingTool):
                   "cd /etc/;"
                   "sudo rm -rf /etc/advtools/;")
         print("\nadvtools Successfully Uninstalled..")
-        print("Happy FOr All Hacking..!!")
+        print("Happy FOr All Hacking Members..!!")
         sleep(1)
 
 
