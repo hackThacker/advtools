@@ -92,13 +92,13 @@ class QRJacking(HackingTool):
 
 class WishFish(HackingTool):
     TITLE = "WishFish"
-     DESCRIPTION = "Using WishFish tool you can generat different phishing links of wishing or custom sites which can grab victim front camera pictures and also gives you lockup information of target ip address " \
-               "You should  download ngrok and extract the ngrok,\n" \
-               " An created on account on ngrok  you got a auth key you have to past on ngrok. \n" \
-               "[+]Type a command. \n" \
-               "[+]./ngrok authtoken Your_auth_token \n" \
-               "[+]./ngrok http 80 \n" \
-               "then ngrok server will run and host on https and http "
+      DESCRIPTION = "Using WishFish tool you can generat different phishing links of wishing or custom sites which can grab victim front camera pictures and also gives you lockup information of target ip address" \
+                  "You should  download ngrok and extract the ngrok,\n" \
+                  "An created  account on ngrok  you got a auth key copy.\n\n\t " \
+                  "[+]Type a command \n" \
+                  "[+]./ngrok authtoken Your_auth_token \n\n\t " \
+                  "[+]./ngrok http 80 \n " \
+                  "[+]then ngrok server will run and host on https and http \n" \
     INSTALL_COMMANDS = ["sudo su"
         "git clone https://github.com/kinghacker0/WishFish.git"
                         "sudo cd WishFish"]
