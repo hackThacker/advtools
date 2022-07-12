@@ -33,7 +33,7 @@ class UpdateTool(HackingTool):
                   "git clone https://github.com/hackThacker/advtools.git;"
                   "cd hackingtool;"
                   "sudo chmod -R 775 avtools;"
-                  "sudo bash install.sh")
+                 "python3 hackingtool.py")
 
 
 class UninstallTool(HackingTool):
