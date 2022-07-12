@@ -13,9 +13,9 @@
    - [X] Added Tool in phishing
 
 - [X] Upcomming tools update
-        - [x] location tracking
-        - [x]  OSINT
-        - [x]  web cam snap
+       - location tracking
+       -   OSINT
+       -   web cam snap
        
 
 
