@@ -16,7 +16,7 @@ sudo chmod +x /usr/share/doc
 
 clear
 
-sudo rm -rf /usr/share/doc/hackingtool/
+sudo rm -rf /usr/share/doc/advtools/
 
 clear
 
@@ -24,7 +24,7 @@ cd /etc/
 
 clear
 
-sudo rm -rf /etc/hackingtool
+sudo rm -rf /etc/advtools
 
 clear
 
@@ -32,7 +32,7 @@ mkdir hackingtool
 
 clear
 
-cd hackingtool
+cd advtools
 
 clear
 
@@ -40,7 +40,7 @@ git clone https://github.com/hackThacker/advtools.git
 
 clear
 
-cd hackingtool
+cd advtools
 
 clear
 
