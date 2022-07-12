@@ -4,19 +4,17 @@
 ## Update Available V1.1.1 🚀 
  - [x] Added New Tools 
    - [x] Android Tools
-   - [x] Bugbounty tools 
-   - [x] Reverse Engineering
-   - [x] RAT Tools
-   - [x] Web Crawling 
-   - [x] Payload Injector
+   
   
 - [x] Multitor Tools update
 - [X] Added Tool in wifijamming
 - [X] Added Tool in steganography
+- [X] Added Tool in phishing
 
     - [X] Upcomming tools update
          -  location tracking
          -  OSINT
+         -  web cam snap
        
 
 
