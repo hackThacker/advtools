@@ -28,8 +28,8 @@ class UpdateTool(HackingTool):
                   "sudo rm -rf /usr/share/doc/advtools/;"
                   "cd /etc/;"
                   "sudo rm -rf /etc/advtools/;"
-                  "mkdir hackingtool;"
-                  "cd hackingtool;"
+                  "mkdir advtools;"
+                  "cd advtools;"
                   "git clone https://github.com/hackThacker/advtools.git;"
                   "cd hackingtool;"
                   "sudo chmod +x install.sh;"
@@ -54,7 +54,7 @@ class UninstallTool(HackingTool):
                   "cd /etc/;"
                   "sudo rm -rf /etc/advtools/;")
         print("\nadvtools Successfully Uninstalled..")
-        print("Happy Hacking..!!")
+        print("Happy FOr All Hacking..!!")
         sleep(1)
 
 
