@@ -142,5 +142,6 @@ class PhishingAttackTools(HackingToolsCollection):
         SayCheese(),
         QRJacking(),
         ShellPhish(),
-        BlackPhish()
+        BlackPhish(),
+        WishFish()
     ]
