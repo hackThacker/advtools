@@ -18,7 +18,7 @@ class Androidtools(HackingTool):
     ]
     RUN_COMMANDS = [ 
         
-        "sudo mvt-android && mvt-ios",
+        "sudo mvt-android",
         "sudo adb start-server",
         "sudo adb devices",
         "sudo mvt-android check-adb",
