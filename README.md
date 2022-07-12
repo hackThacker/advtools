@@ -105,6 +105,7 @@
 - [QR Code Jacking](https://github.com/cryptedwolf/ohmyqr)
 - [ShellPhish](https://github.com/An0nUD4Y/shellphish)
 - [BlackPhish](https://github.com/iinc0gnit0/BlackPhish)
+- [WishFish](https://github.com/kinghacker0/WishFish)
 ### Web Attack tools
 - [Web2Attack](https://github.com/santatic/web2attack)
 - Skipfish
