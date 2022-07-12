@@ -100,8 +100,7 @@ class WishFish(HackingTool):
                   "[+]./ngrok authtoken Your_auth_token \n\n\t " \
                   "[+]./ngrok http 80 \n " \
                   "[+]then ngrok server will run and host on https and http \n" \
-    INSTALL_COMMANDS = [ "git clone https://github.com/kinghacker0/WishFish.git" 
-        "sudo cd WishFish"]
+    INSTALL_COMMANDS = [ "sudo git clone https://github.com/kinghacker0/WishFish.git  && sudo cd WishFish"]
     RUN_COMMANDS = ["sudo bash wishfish.sh"
                     "input("")"
                     "chmod +x copy.sh && ./copy.sh"
