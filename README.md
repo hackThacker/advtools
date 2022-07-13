@@ -220,14 +220,10 @@
     cd advtools
     
     sudo pip3 install -r requirement.txt
+   
+   sudo python3 hackingtool.py
     
-    sudo bash install.sh
-    
-    sudo hackingtool
 
- After Following All Steps Just Type In Terminal **root@kaliLinux:~** **hackingtool**
-
-#### Thanks to original Author of the tools used in hackingtool
 
 <img src ="https://img.shields.io/badge/Important-notice-red" />
 <h4>Please Don't Use for illegal Activity</h4>
