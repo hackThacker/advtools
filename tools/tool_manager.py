@@ -13,7 +13,7 @@ class UpdateTool(HackingTool):
     def __init__(self):
         super(UpdateTool, self).__init__([
             ("Update System", self.update_sys),
-            ("Update Hackingtool", self.update_ht)
+            ("Update advtools", self.update_ht)
         ], installable = False, runnable = False)
 
     def update_sys(self):
