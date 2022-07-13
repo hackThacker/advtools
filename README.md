@@ -4,7 +4,7 @@
 ## Update Available V1.1.1 🚀 
 
  - [x] Added New Tools 
-   - [x] personalinformation gathering 
+   - [x] personalinformation gathering tools
    
   
 - [x] Multitor Tools update
@@ -22,7 +22,7 @@
 - [Anonymously Hiding Tools](#anonymously-hiding-tools)
 - [Android Tools](#android-tools)
 - [Bugbounty Tools](#bugbounty-tools)
-  [personalinformation](#personalinformation)
+-  [personalinformation](#personalinformation)
 - [Information gathering tools](#information-gathering-tools)
 - [Wordlist Generator](#wordlist-generator)
 - [Wireless attack tools](#wireless-attack-tools)
