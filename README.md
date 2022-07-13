@@ -4,25 +4,25 @@
 ## Update Available V1.1.1 🚀 
 
  - [x] Added New Tools 
-   - [x] Android Tools package
+   - [x] personalinformation gathering 
    
   
 - [x] Multitor Tools update
-   - [X] Added Tool in wifijamming
-   - [X] Added Tool in steganography
    - [X] Added Tool in phishing
+         - [X] web cam snap
 
 - [X] Upcomming tools update
      - [X] location tracking
      - [X]  OSINT
-     - [X] web cam snap
+     
        
 
 
 # Hackingtool Menu 🧰
 - [Anonymously Hiding Tools](#anonymously-hiding-tools)
 - [Android Tools](#android-tools)
--  [Bugbounty Tools](#bugbounty-tools)
+- [Bugbounty Tools](#bugbounty-tools)
+  [personalinformation](#personalinformation)
 - [Information gathering tools](#information-gathering-tools)
 - [Wordlist Generator](#wordlist-generator)
 - [Wireless attack tools](#wireless-attack-tools)
@@ -166,6 +166,12 @@
 - [Whitespace](https://github.com/beardog108/snow10)
 ### Android Tools
 - [Android Tools](https://github.com/mvt-project/mvt)
+
+
+### personalinformation
+ - [DaProfiler](https://github.com/daprofiler/DaProfiler)
+ - [Profil3r](https://github.com/Rog3rSm1th/Profil3r.git)
+
 ### Other tools
 #### SocialMedia Bruteforce
 - [Instagram Attack](https://github.com/chinoogawa/instaBrute)
