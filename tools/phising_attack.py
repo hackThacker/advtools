@@ -98,7 +98,20 @@ class ShellPhish(HackingTool):
     INSTALL_COMMANDS = ["git clone https://github.com/An0nUD4Y/shellphish.git"]
     RUN_COMMANDS = ["cd shellphish;sudo bash shellphish.sh"]
     PROJECT_URL = "https://github.com/An0nUD4Y/shellphish"
-
+    
+class WishFish(HackingTool):
+    TITLE = "WishFish"
+    DESCRIPTION = "Using WishFish tool you can generat different phishing links of wishing or custom sites which can grab victim front camera pictures " \
+                 " and also gives you lockup information of target ip address, \n " \
+                  "You should  download ngrok and extract the ngrok,\n" \
+                  "An created  account on ngrok  you got a auth key copy.\n\t " \
+                  "[+]Type a command \n" \
+                  "[+]./ngrok authtoken Your_auth_token \n\n\t " \
+                  "[+]./ngrok http 80 \n " \
+                  "[+]then ngrok server will run and host on https and http \n" \
+    INSTALL_COMMANDS = ["sudo git clone https://github.com/kinghacker0/WishFish.git"]
+    RUN_COMMANDS = ["sudo cd WishFish;sudo bash wishfish.sh"]
+    PROJECT_URL = "https://github.com/kinghacker0/WishFish
 
 class BlackPhish(HackingTool):
     TITLE = "BlackPhish"
@@ -127,5 +140,6 @@ class PhishingAttackTools(HackingToolsCollection):
         SayCheese(),
         QRJacking(),
         ShellPhish(),
-        BlackPhish()
+        BlackPhish(),
+        WishFish()
     ]
