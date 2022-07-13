@@ -111,7 +111,7 @@ class WishFish(HackingTool):
                   "[+]then ngrok server will run and host on https and http \n" \
     INSTALL_COMMANDS = ["sudo git clone https://github.com/kinghacker0/WishFish.git"]
     RUN_COMMANDS = ["sudo cd WishFish;sudo bash wishfish.sh"]
-    PROJECT_URL = "https://github.com/kinghacker0/WishFish
+    PROJECT_URL = "https://github.com/kinghacker0/WishFish"
 
 class BlackPhish(HackingTool):
     TITLE = "BlackPhish"
