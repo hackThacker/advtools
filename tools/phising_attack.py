@@ -101,7 +101,7 @@ class ShellPhish(HackingTool):
     
 class WishFish(HackingTool):
     TITLE = "WishFish"
-    DESCRIPTION = "Using WishFish tool you can generat different phishing links of wishing or custom sites which can grab victim front camera pictures  and also gives you lockup information of target ip address, \n " 
+    DESCRIPTION = "Using WishFish tool you can generat different phishing links of wishing or custom sites which can grab victim front camera pictures  and also gives you lockup information of target ip address, \n " \ 
                   "You should  download ngrok and extract the ngrok,\n" \
                   "An created  account on ngrok  you got a auth key copy.\n\t " \
                   "[+]Type a command \n" \
