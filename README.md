@@ -220,8 +220,8 @@
     cd advtools
     
     sudo pip3 install -r requirement.txt
-   
-   sudo python3 hackingtool.py
+    
+    sudo python3 hackingtool.py
     
 
 
