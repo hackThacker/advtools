@@ -97,7 +97,7 @@ if __name__ == "__main__":
                         f.write(inpath)
                     print(f"Successfully Set Path to: {inpath}")
                 elif choice == "2":
-                    autopath = "/home/hackingtool/"
+                    autopath = "/home/advtools/"
                     with open(fpath, "w") as f:
                         f.write(autopath)
                     print(f"Your Default Path Is: {autopath}")
@@ -119,7 +119,7 @@ if __name__ == "__main__":
             print(
                 "\033[91m Please Run This Tool On A Debian System For Best Results " "\e[00m")
             sleep(2)
-            webbrowser.open_new_tab("https://tinyurl.com/y522modc")
+            webbrowser.open_new_tab("hackhacker.blogspot.com")
 
         else:
             print("Please Check Your System or Open New Issue ...")
