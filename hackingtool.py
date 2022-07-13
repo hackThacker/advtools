@@ -27,6 +27,7 @@ from tools.wordlist_generator import WordlistGeneratorTools
 from tools.xss_attack import XSSAttackTools
 from tools.bughunter import bughunter
 from tools.Androidtools import Androidtools
+from tools.personalinformation import userinformation
 
 logo = """\033[33m
    ▄█    █▄       ▄████████  ▄████████    ▄█   ▄█▄  ▄█  ███▄▄▄▄      ▄██████▄           ███      ▄██████▄   ▄██████▄   ▄█       
@@ -46,6 +47,7 @@ logo = """\033[33m
 all_tools = [
     AnonSurfTools(),
     bughunter(),
+    userinformation(),
     InformationGatheringTools(),
     WordlistGeneratorTools(),
     WirelessAttackTools(),
