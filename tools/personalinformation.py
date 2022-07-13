@@ -11,7 +11,7 @@ class DaProfiler(HackingTool):
         "git clone https://github.com/TheRealDalunacrobate/DaProfiler.git",
         "cd DaProfiler && pip3 install -r requirements.txt"
     ]
-    RUN_COMMANDS = ["sudo  python profiler.py -h"]
+    RUN_COMMANDS = ["python profiler.py -h"]
     PROJECT_URL = " https://github.com/TheRealDalunacrobate/DaProfiler"
     
     
