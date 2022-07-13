@@ -221,6 +221,8 @@
     
     sudo pip3 install -r requirement.txt
     
+    sudo bash install.sh
+    
     sudo python3 hackingtool.py
     
 
