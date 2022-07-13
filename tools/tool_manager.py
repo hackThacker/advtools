@@ -31,7 +31,7 @@ class UpdateTool(HackingTool):
                   "mkdir advtools;"
                   "cd advtools;"
                   "git clone https://github.com/hackThacker/advtools.git;"
-                  "cd hackingtool;"
+                  "cd advtools;"
                   "sudo chmod -R 775 avtools;"
                  "python3 hackingtool.py")
 
