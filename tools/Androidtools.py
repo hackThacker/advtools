@@ -10,22 +10,19 @@ class Androidtools(HackingTool):
                   "  of gathering forensic traces helpful to identify a potential compromise of Android and iOS devices."
     INSTALL_COMMANDS = [
 
-        "sudo  apt install adb ",
-        "sudo apt install python3-pip ",
-        "export PATH=$PATH:~/.local/bin ",
-        "pip install mvt",
-        "" 
+        "sudo  git clone https://github.com/mvt-project/mvt.git ",
+        "sudo cd mvt ",
+        "sudo pip install -r requirements.txt "
+   
     ]
     RUN_COMMANDS = [ 
         
-        "sudo mvt-android",
         "sudo adb start-server",
         "sudo adb devices",
         "sudo mvt-android check-adb",
-        "cd /home/kali/Desktop  && mkdir mvtapps",
-        "sudo mvt-android download-apks -o mvtapps -A"
+        "sudo python -m mvt android download-apks -o mvtapps -A"
       ]
-    PROJECT_URL = "sudo git clone https://github.com/mvt-project/mvt"
+    PROJECT_URL = "https://github.com/mvt-project/mvt"
 
     def __init__(self):
         super(Androidtools, self).__init__([('Stop', self.stop)])
