@@ -212,33 +212,68 @@
 
 
 #### This Tool Must Run As ROOT !!!
-
-    git clone https://github.com/hackThacker/advtools.git
-    
-    chmod -R 755 advtools
-    
-    cd advtools
-    
-    sudo pip3 install -r requirement.txt
-    
-    sudo bash install.sh
-    
+1. Clone the repo and enter the directory
+```
+git clone https://github.com/hackThacker/advtools.git
+```   
+```
+cd advtools
+```
+2. Create and activate a Python virtual environment
+```
+    python3 -m venv hackThacker
+```
+```
+    source hackThacker/bin/activate
+```
+3. Install requirements
+```
+    pip install -r requirement.txt
+```
+4. Make the installer executable and run it
+```
+    chmod +x install.sh
+```
+```
+    ./install.sh
+```  
+5. Run the tool (with sudo if required)
+```  
     sudo python3 hackingtool.py
-    
+ ```   
 
 
-<img src ="https://img.shields.io/badge/Important-notice-red" />
-<h4>Please Don't Use for illegal Activity</h4>
+# ⚠️ Important Notice
 
-꧁𓊈𒆜🅲🆁🅴🅰🆃🅴🅳 🅱🆈 🅽🅴🅴🆁🅰🅹𒆜𓊉꧂
+<img src="https://img.shields.io/badge/Important-notice-red" alt="Important notice" />
 
- ### Support to us
-<a href="https://www.buymeacoffee.com/hackThacker0" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/arial-yellow.png" alt="Buy Me A Coffee" style="height: 50px !important;width: 50px !important;"></a>
-----------------------------------------------
+> **Please do NOT use this project for illegal activities.**  
+> This repository is provided for educational and defensive/security-research purposes only. The authors are not responsible for misuse.
 
-https://www.paypal.com/donate?hosted_button_id=GVZ23CFW2ET2G
+---
 
-#### Don't Forgot to share with Your Friends 
---------------------------------------------------
-### The new Update get will soon stay updated
-#### Thank you..!!
+<p align="center">꧁𓊈𒆜 <strong>Created by Neeraj</strong> 𒆜𓊉꧂</p>
+
+---
+
+## 🔔 Support the Project
+
+If you find this project useful, consider supporting development:
+
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/arial-yellow.png)](https://www.buymeacoffee.com/hackThacker0)  
+[Donate via PayPal](https://www.paypal.com/donate?hosted_button_id=GVZ23CFW2ET2G)
+
+---
+
+## 🔁 Share & Stay Updated
+
+Please share this project with your peers and friends — contributions and feedback are welcome.
+
+**Latest updates:** This project is actively maintained. Check the repository for release notes and changelogs.
+
+
+## 🙏 Thank You
+
+Thank you for your interest and support. If you contribute, please follow the repository's contribution guidelines and code of conduct.
+
+---
