@@ -29,22 +29,38 @@ from tools.bughunter import bughunter
 from tools.Androidtools import Androidtools
 from tools.personalinformation import userinformation
 
-logo = """\033[33m
-   ▄█    █▄       ▄████████  ▄████████    ▄█   ▄█▄  ▄█  ███▄▄▄▄      ▄██████▄           ███      ▄██████▄   ▄██████▄   ▄█       
-  ███    ███     ███    ███ ███    ███   ███ ▄███▀ ███  ███▀▀▀██▄   ███    ███      ▀█████████▄ ███    ███ ███    ███ ███       
-  ███    ███     ███    ███ ███    █▀    ███▐██▀   ███▌ ███   ███   ███    █▀          ▀███▀▀██ ███    ███ ███    ███ ███       
- ▄███▄▄▄▄███▄▄   ███    ███ ███         ▄█████▀    ███▌ ███   ███  ▄███                 ███   ▀ ███    ███ ███    ███ ███       
-▀▀███▀▀▀▀███▀  ▀███████████ ███        ▀▀█████▄    ███▌ ███   ███ ▀▀███ ████▄           ███     ███    ███ ███    ███ ███       
-  ███    ███     ███    ███ ███    █▄    ███▐██▄   ███  ███   ███   ███    ███          ███     ███    ███ ███    ███ ███       
-  ███    ███     ███    ███ ███    ███   ███ ▀███▄ ███  ███   ███   ███    ███          ███     ███    ███ ███    ███ ███▌    ▄ 
-  ███    █▀      ███    █▀  ████████▀    ███   ▀█▀ █▀    ▀█   █▀    ████████▀          ▄████▀    ▀██████▀   ▀██████▀  █████▄▄██ 
+# --- Color Codes ---
+YELLOW = '\033[33m'
+BLUE = '\033[34m'
+LIGHT_RED = '\033[91m'
+WHITE = '\033[0;37m'
+NC = '\033[0m' # No Color / Reset
+
+# Use a raw, formatted string (fr) for the logo
+# 'r' prevents backslashes in the art from being misinterpreted.
+# 'f' allows embedding the color variables directly.
+logo = fr"""{YELLOW}
+ ▄█    █▄       ▄████████  ▄████████    ▄█   ▄█▄  ▄█  ███▄▄▄▄      ▄██████▄           ███      ▄██████▄   ▄██████▄   ▄█       
+███    ███     ███    ███ ███    ███   ███ ▄███▀ ███  ███▀▀▀██▄   ███    ███      ▀█████████▄ ███    ███ ███    ███ ███       
+███    ███     ███    ███ ███    █▀    ███▐██▀   ███▌ ███   ███   ███    █▀          ▀███▀▀██ ███    ███ ███    ███ ███       
+███▄▄▄▄███▄▄   ███    ███ ███         ▄█████▀    ███▌ ███   ███  ▄███                 ███   ▀ ███    ███ ███    ███ ███       
+███▀▀▀▀███▀  ▀███████████ ███        ▀▀█████▄    ███▌ ███   ███ ▀▀███ ████▄           ███     ███    ███ ███    ███ ███       
+███    ███     ███    ███ ███    █▄    ███▐██▄   ███  ███   ███   ███    ███          ███     ███    ███ ███    ███ ███       
+███    ███     ███    ███ ███    ███   ███ ▀███▄ ███  ███   ███   ███    ███          ███     ███    ███ ███    ███ ███▌    ▄ 
+███    █▀      ███    █▀  ████████▀    ███   ▀█▀ █▀    ▀█   █▀    ████████▀          ▄████▀    ▀██████▀   ▀██████▀  █████▄▄██ 
                                          ▀                                                                            ▀                             
-                                    \033[34m[✔]  https://github.com/hackThacker/advtools.git [✔]
-                                    \033[34m[✔]            Version 1.1.1              [✔]
-                                    \033[91m[X] Please Don't Use For illegal Activity  [X]
-                                    \033[91m[X] This is for Education-purpose [X] 
-                                    \033[0;37m  Ｔｈｉｓ Ｔｏｏｌ ｉｓ Ｃｒｅａｔｅｄ ｂｙ ：－ ｈａｃｋＴｈａｃｋｅｒ☻
-\033[0m"""
+{BLUE}
+                            [✔]  https://github.com/hackThacker/advtools.git [✔]
+                            [✔]            Version 1.1.1              [✔]
+{LIGHT_RED}
+                            [X] Please Don't Use For illegal Activity  [X]
+                            [X]      This is for Education-purpose     [X] 
+{WHITE}
+                    Ｔｈｉｓ Ｔｏｏｌ ｉｓ Ｃｒｅａｔｅｄ ｂｙ ：－ ｈａｃｋＴｈａｃｋｅｒ☻
+{NC}"""
+
+# To display the logo, you would just use:
+# print(logo)
                                                      
 all_tools = [
     AnonSurfTools(),

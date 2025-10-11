@@ -221,26 +221,29 @@ cd advtools
 ```
 2. Create and activate a Python virtual environment
 ```
-    python3 -m venv hackThacker
+python3 -m venv hackThacker
 ```
 ```
-    source hackThacker/bin/activate
+source hackThacker/bin/activate
 ```
 3. Install requirements
 ```
-    pip install -r requirement.txt
+pip install -r requirement.txt
 ```
 4. Make the installer executable and run it
 ```
-    chmod +x install.sh
+chmod +x install.sh
 ```
 ```
-    ./install.sh
+sudo ./install.sh
 ```  
 5. Run the tool (with sudo if required)
 ```  
-    sudo python3 hackingtool.py
+advtools
  ```   
+```
+python3 hackingtool.py
+```
 
 
 # ⚠️ Important Notice
